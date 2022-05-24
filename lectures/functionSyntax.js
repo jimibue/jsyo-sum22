@@ -56,7 +56,7 @@ const getUserInfo =(props)=>{
 }
 
 // I am expecting u ={name:String, age:number}
-const getUserInfo = ({name, age, school}) =>{
+const getUserInfo1 = ({name, age, school}) =>{
     console.log(name)
     console.log(age)
     console.log(school)
