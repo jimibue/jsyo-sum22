@@ -1,3 +1,4 @@
+
 const myPromise = new Promise((resolve, reject) => {
     setTimeout(() => {
       let rand = Math.floor(Math.random()*10)%2 
