@@ -44,3 +44,9 @@ const myPromise = new Promise((resolve, reject) => {
 //     console.log('hi')
 // }
 
+const x = 1;
+const y = ()=>{
+  console.log('yo')
+};
+module.exports = { x, y }
+

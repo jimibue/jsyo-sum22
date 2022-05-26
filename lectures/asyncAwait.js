@@ -5,7 +5,6 @@ const fakeAPICall = (url) => {
         res({ data: ["sally", "john"] });
       } else {
         rej({ error: "404 page not found" });
-        
       }
     }, 2000);
   });
